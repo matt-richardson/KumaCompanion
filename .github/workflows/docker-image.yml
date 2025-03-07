@@ -30,4 +30,4 @@ jobs:
           context: .
           file: ./Dockerfile  # Ensure this is the correct path
           push: true
-          tags: ghcr.io/${{ github.repository_owner }}//${{ github.repository_name }}:0.0.${{ github.run_number }}
+          tags: ghcr.io/${{ github.repository_owner }}/uptime-kuma-cli:0.0.${{ github.run_number }}
